@@ -1,5 +1,5 @@
 <?php
-	
+
 	class HomepageController extends CI_Controller{
 
 		public function index() {
@@ -8,9 +8,12 @@
 
 		public function home(){
 			$this->load->view('homepage/header');
-		
 		}
-		
+
+	public function beranda(){
+		$this->load->view('vhome');
+	}
+
 	}
 
 

@@ -60,6 +60,7 @@ membuat route nama route = nama controller/nama fungsi
 $route['Test']='AdminController/index';
 $route['home']='HomepageController/index';
 $route['header']='HomepageController/home';
+$route['beranda']='HomepageController/beranda';
 
 
 
